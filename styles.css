@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff;
+    color: #111111;
+    direction: rtl;
+}
+
+.page-header {
+    text-align: center;
+    padding: 24px 16px;
+    border-bottom: 2px solid #f0f0f0;
+    background: #fff;
+}
+
+.page-header h1 {
+    margin: 0 0 8px;
+    color: #222;
+}
+
+.page-header p {
+    margin: 0 0 12px;
+    color: #555;
+}
+
+.admin-link {
+    display: inline-block;
+    padding: 8px 14px;
+    background-color: #d30;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.news-section {
+    max-width: 1000px;
+    margin: 24px auto;
+    padding: 0 16px 24px;
+}
+
+.news-banner {
+    color: #fff;
+    background-color: #d30;
+    padding: 8px 12px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.news-list {
+    margin-top: 16px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 16px;
+}
+
+.news-item {
+    border: 1px solid #eee;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    overflow: hidden;
+}
+
+.news-item img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.news-item-content {
+    padding: 12px;
+}
+
+.news-item-content h3 {
+    margin: 0 0 8px;
+    font-size: 1.1rem;
+}
+
+.news-item-content p {
+    margin: 0;
+    color: #444;
+}
+
+.no-news {
+    margin-top: 24px;
+    text-align: center;
+    color: #999;
+    font-size: 1.05rem;
+}
+
+form {
+    max-width: 680px;
+    margin: 0 auto;
+    display: grid;
+    gap: 12px;
+    background: #fff;
+    padding: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    text-align: right;
+}
+
+input[type="text"], textarea {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 0.95rem;
+    width: 100%;
+}
+
+button {
+    padding: 10px 14px;
+    border: none;
+    background: #d30;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #c00;
+}

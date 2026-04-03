@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>لوحة إدارة المرصاد العسكري</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="page-header">
+        <h1>لوحة إدارة المرصاد العسكري</h1>
+        <p>يمكنك إضافة منشورات مدونة جديدة (صورة ونص) هنا.</p>
+        <a class="admin-link" href="index.html">العودة إلى الموقع</a>
+    </header>
+
+    <main>
+        <section class="news-section">
+            <h2 class="news-banner">إضافة منشور جديد</h2>
+            <form id="addForm">
+                <label>عنوان المنشور:
+                    <input type="text" id="title" required>
+                </label>
+                <label>نص المنشور:
+                    <textarea id="content" rows="4" required></textarea>
+                </label>
+                <label>رابط صورة المنشور:
+                    <input type="text" id="image" placeholder="https://..." required>
+                </label>
+                <button type="submit">حفظ المنشور</button>
+            </form>
+        </section>
+
+        <section class="news-section">
+            <h2 class="news-banner">المنشورات الحالية</h2>
+            <div id="newsList" class="news-list"></div>
+            <div id="noNews" class="no-news">لا توجد منشورات حالياً</div>
+        </section>
+    </main>
+
+    <script src="admin.js"></script>
+</body>
+</html></content>
+<parameter name="filePath">c:\Users\Khaled\Desktop\KALASINKOV\admin.html
